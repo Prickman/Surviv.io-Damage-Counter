@@ -4,7 +4,7 @@
   "version": "0.1",
   "description": "Surviv.io constantly updating damage counter",
   "browser_action": {
-    "default_icon": "radioactive.png"
+    "default_icon": "radioactive.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
