@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Surviv.io Pointer",
-  "version": "0.3",
+  "name": "Surviv.io Damage Counter",
+  "version": "0.1",
   "browser_action": {
     "default_icon": "radioactive.png"
   },
