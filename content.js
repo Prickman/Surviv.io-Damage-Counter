@@ -1,4 +1,4 @@
-// content.js
-$(document).ready(function () {
-    $('#game-area-wrapper').css('cursor', 'pointer')
-});
+document.addEventListener('DOMContentLoaded', function() {
+  var checkPageButton = document.getElementById('damage');
+  checkPageButton.addEventListener('click', function() {
+    chrome.tabs.getSelected(null, function(tab) {
